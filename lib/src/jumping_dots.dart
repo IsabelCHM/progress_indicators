@@ -144,6 +144,7 @@ class _JumpingDotsProgressIndicatorState
     return SizedBox(
       height: fontSize! + (fontSize! * 0.5),
       child: Row(
+        mainAxisSize: MainAxisSize.min,
         mainAxisAlignment: MainAxisAlignment.center,
         children: _widgets,
       ),
